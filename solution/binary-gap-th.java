@@ -11,8 +11,8 @@ class Solution {
 		N = 0;   
 				     
         for(int i=1; i<pro.length ;i++){
-						if(pro[i].length()==0){
-            		N3++;
+            if(pro[i].length()==0){
+            	N3++;
             }else{
             	N3=1;
             }
@@ -20,6 +20,6 @@ class Solution {
             Arrays.sort(score);
             N=score[score.length - 1]; 
         }
-			return N;
+        return N;
     }
 }
